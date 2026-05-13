@@ -1,0 +1,1 @@
+export default function Settings(){return <div className='card'><h1 className='text-2xl font-bold mb-2'>Impostazioni</h1><p>I tuoi dati sono protetti. Puoi scollegare integrazioni in qualsiasi momento. Nessuna azione delicata senza conferma.</p></div>}

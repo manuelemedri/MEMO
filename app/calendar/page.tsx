@@ -1,0 +1,1 @@
+import { mockEvents } from '@/data/mockEvents';export default function C(){return <div><h1 className='text-2xl font-bold mb-3'>Calendario</h1><div className='card space-y-2'>{mockEvents.map(e=><div className='flex gap-3' key={e.id}><b>{e.startTime}</b><div><p className='font-medium'>{e.title}</p><p className='text-sm text-slate-500'>{e.location}</p></div></div>)}</div></div>}
