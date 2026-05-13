@@ -1,0 +1,1 @@
+import { GroceryItem } from '@/types'; export const mockShopping:GroceryItem[]=[{id:'g1',name:'Banane',category:'Frutta e verdura',completed:false,addedBy:'Manuele'},{id:'g2',name:'Pomodori',category:'Frutta e verdura',completed:true,addedBy:'Manuele'},{id:'g3',name:'Latte',category:'Latticini',completed:false,addedBy:'Sara'}];
